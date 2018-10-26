@@ -22,7 +22,7 @@ function Person(namn, ePost, tel, gatuAdress, postNummer, ort){
 let samir = new Person("Samir Blom", "test@mail.com", "0723749585", "Hästgatan 42", "17123", "Kista");
 let bengan = new Person("Bengan Svensson", "b.svensson@mail.com", "0723576545", "Västbackavägen 36", "16623", "Växsjö");
 
-// De två objekten "samir" samt "bengan" deklareras.
+// De två objekten "samir" samt "bengan" skapas.
 
 samir.print();
 bengan.print();
