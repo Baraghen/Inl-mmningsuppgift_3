@@ -6,4 +6,4 @@ function fakultet(siffra)
     else
       { return  siffra * fakultet( siffra - 1 ); }
 }
-document.getElementById("svar").innerHTML = fakultet(siffra);
+document.getElementById("svar").innerHTML = "Svaret blir: "+fakultet(siffra);

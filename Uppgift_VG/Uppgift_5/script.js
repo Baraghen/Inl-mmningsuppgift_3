@@ -1,3 +1,5 @@
+// If-Version
+
 function randomDice(){
     let siffror = [];
     for(let i = 1; i <= 1000; i++){
@@ -34,33 +36,34 @@ function print(){
 }
 print();
 
-function filter(){
-    randomDice();
-    var search1 = 1;
-    var dice1 = tal.filter(function(val) {
-        return val === search1;
-    }).length;
-    var search2 = 2;
-    var dice2 = tal.filter(function(val) {
-        return val === search2;
-    }).length;
-    var search3 = 3;
-    var dice3 = tal.filter(function(val) {
-        return val === search3;
-    }).length;
-    var search4 = 4;
-    var dice4 = tal.filter(function(val) {
-        return val === search4;
-    }).length;
-    var search5 = 5;
-    var dice5 = tal.filter(function(val) {
-        return val === search5;
-    }).length;
-    var search6 = 6;
-    var dice6 = tal.filter(function(val) {
-        return val === search6;
-    }).length;
-    console.log(dice1+dice2+dice3+dice4+dice5+dice6);
-    console.log("Antal 1:or: "+dice1+"\nAntal 2:or: "+dice2+"\nAntal 3:or: "+dice3+"\nAntal 4:or: "+dice4+"\nAntal 5:or: "+dice5+"\nAntal 6:or: "+dice6);
-}
+// filter-version.
+
+// function filter(){
+//     let tal = randomDice();
+//     var search1 = 1;
+//     var dice1 = tal.filter(function(val) {
+//         return val === search1;
+//     }).length;
+//     var search2 = 2;
+//     var dice2 = tal.filter(function(val) {
+//         return val === search2;
+//     }).length;
+//     var search3 = 3;
+//     var dice3 = tal.filter(function(val) {
+//         return val === search3;
+//     }).length;
+//     var search4 = 4;
+//     var dice4 = tal.filter(function(val) {
+//         return val === search4;
+//     }).length;
+//     var search5 = 5;
+//     var dice5 = tal.filter(function(val) {
+//         return val === search5;
+//     }).length;
+//     var search6 = 6;
+//     var dice6 = tal.filter(function(val) {
+//         return val === search6;
+//     }).length;
+//     console.log("Antal 1:or: "+dice1+"\nAntal 2:or: "+dice2+"\nAntal 3:or: "+dice3+"\nAntal 4:or: "+dice4+"\nAntal 5:or: "+dice5+"\nAntal 6:or: "+dice6);
+// }
 // filter();
